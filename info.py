@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '4234473'))
 API_HASH = environ.get('API_HASH', '6d9e82c9edc244b0c0a20d8fa89f9784')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6268719215:AAFXrTuEhXw6j8vP-40yQC35ixD_NnUGqQI")#
+BOT_TOKEN = environ.get('BOT_TOKEN', "5885482218:AAF2XUB9U9NxNVernr9P8L1rr02i6i9Dxuk")#
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "buarath")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811764554'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001942386281'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'search_zone_support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
